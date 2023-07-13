@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap');
+
+.main {
+  width: 100vw;
+  min-height: 100vh;
+  height: auto;
+  /*padding: 4rem 0;*/
+  /* flex: 1; */
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+  /* justify-content: left; */
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  /*max-width: 1440px;*/
+  /*padding: 0 1rem;*/
+  /*margin: 0 auto;*/
+}
+
+.header {
+  /* margin-left: 4rem; */
+}
+
+.title {
+  line-height: 1.15;
+  font-size: 4rem;
+  font-family: 'Playfair Display', serif;
+}
+
+.description {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}
+
+/*.main .web3-button {
+  background-color: #006400;
+  color: white;
+}*/
+
+
+@media (max-width: 768px) {
+  .header {
+    margin-left: 0;
+  }
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+  .title {
+    font-size: 3rem;
+    line-height: 1.15;
+  }
+}
+
+.footer {
+  border-color: #222;
+}
+.logo img {
+  filter: invert(1);
+}
+
+.chevron {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
